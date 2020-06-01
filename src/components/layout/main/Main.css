@@ -1,0 +1,9 @@
+.main-content{
+    height:  calc(100vh - 100px);
+    background-color: rgb(214, 202, 247);
+}
+#birb{
+    position:fixed;
+    bottom:0px;
+    left: 30%;
+}

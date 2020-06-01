@@ -1,0 +1,34 @@
+.user-card{
+    width: 300px;
+    margin: 15px;
+    padding: 15px 10px;
+    border: 3px solid;
+    border-radius: 5px;
+    border-left-color: #999AC6;
+    border-top-color: #999AC6;
+    border-bottom-color: #4C2C72;
+    border-right-color: #4C2C72;
+    background-color: rgb(245, 241, 255);
+    filter: drop-shadow(5px 10px 8px) #000;
+    -webkit-filter: drop-shadow(5px 10px 8px);
+}
+.picture-holder{
+    position: relative;
+}
+.edit-icon{
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+.picture-holder img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.info-holder .name, .age, .email{
+    color: #726DA8;
+    font-weight: 500;
+}
+.info-holder{
+    text-align: left;
+    padding-left: 10px;
+}

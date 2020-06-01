@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "5eca742ff4dba4a7aa1d2e46",
+      "isActive": true,
+      "isAdmin": true,
+      "picture": "https://picsum.photos/250/300?random=1",
+      "age": 26,
+      "name": "Jake Willson",
+      "email": "jwills@netplax.com",
+      "phone": "+1 (898) 513-3049",
+      "password": "12345"
+    },
+    {
+      "id": "5eca742f2e5fa98029a2917f",
+      "isActive": false,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/250/300?random=2",
+      "age": "31",
+      "name": "Janell East",
+      "email": "janellEast@netplax.com",
+      "phone": "+1 (905) 486-2672",
+      "password": "pass123"
+    },
+    {
+      "id": "5eca742f1087e79131dbd78b",
+      "isActive": false,
+      "isAdmin": true,
+      "picture": "https://picsum.photos/250/300?random=3",
+      "age": 22,
+      "name": "Bernadette Castillo",
+      "email": "bernadetteC@netplax.com",
+      "phone": "+1 (975) 452-3494",
+      "password": "pass123"
+    },
+    {
+      "id": "5eca742f4cfeed523fc4373c",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/250/300?random=4",
+      "age": 40,
+      "name": "Tasha Hickman",
+      "email": "tashahickman@netplax.com",
+      "phone": "+1 (859) 532-2141",
+      "password": "pass123"
+    },
+    {
+      "name": "Sisa",
+      "email": "sisa@fmail.com",
+      "password": "parola123",
+      "age": "21",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/250/300?random=5",
+      "phone": "+1 (898) 513-3049",
+      "id": "FANjtsn"
+    }
+  ],
+  "recipies": []
+}

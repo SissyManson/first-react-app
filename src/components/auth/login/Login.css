@@ -1,0 +1,65 @@
+.login-wrapper{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background-color: #999AC6;
+}
+.login-form{
+    width: 350px;
+    padding: 20px 25px;
+    text-align: left;
+    border: 3px solid;
+    border-radius: 10px;
+    border-left-color: #999AC6;
+    border-top-color: #999AC6;
+    border-bottom-color: #4C2C72;
+    border-right-color: #4C2C72;
+    background-color: rgb(245, 241, 255);
+    filter: drop-shadow(5px 7px 18px) #000;
+    -webkit-filter: drop-shadow(5px 7px 18px);
+    display: flex;
+    flex-direction: column;
+}
+#login{
+    text-align: center;
+    color: rgba(76, 44, 114, 0.6);
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 10px;
+}
+.form-group{
+    margin: 20px 0;
+}
+
+label{
+    color: #726DA8;
+    font-weight: 500;
+}
+#emaiL, #passL{
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #4C2C72;
+    background-color: rgb(245, 241, 255);
+    padding-left: 5px;
+}
+#btn{
+    color: #4C2C72;
+    font-weight: 500;
+    margin-top: 30px;
+    border: 3px solid;
+    border-radius: 50px;
+    border-left-color: #999AC6;
+    border-top-color: #999AC6;
+    border-bottom-color: #4C2C72;
+    border-right-color: #4C2C72;
+    background-color: rgb(154, 136, 202);
+}
+#btn:hover{
+    background-color: rgb(186, 172, 219);
+    transition: 1.2s;
+}
+#toRegister{
+    text-align: center;
+    margin-top: 10px;
+}
