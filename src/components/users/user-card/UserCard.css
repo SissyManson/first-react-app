@@ -1,34 +1,64 @@
-.user-card{
-    width: 300px;
-    margin: 15px;
-    padding: 15px 10px;
-    border: 3px solid;
-    border-radius: 5px;
-    border-left-color: #999AC6;
-    border-top-color: #999AC6;
-    border-bottom-color: #4C2C72;
-    border-right-color: #4C2C72;
-    background-color: rgb(245, 241, 255);
-    filter: drop-shadow(5px 10px 8px) #000;
-    -webkit-filter: drop-shadow(5px 10px 8px);
+.user-card {
+  width: 300px;
+  margin: 15px;
+  border: 3px solid;
+  border-radius: 5px;
+  border-left-color: rgb(124, 125, 161);
+  border-top-color: rgb(124, 125, 161);
+  border-bottom-color: #4c2c72;
+  border-right-color: #4c2c72;
+  background-color: rgb(245, 241, 255);
+  filter: drop-shadow(5px 10px 8px) #000;
+  -webkit-filter: drop-shadow(5px 10px 8px);
+  z-index: 666;
 }
-.picture-holder{
-    position: relative;
+.picture-holder {
+  position: relative;
 }
-.edit-icon{
-    position: absolute;
-    right: 15px;
-    top: 5px;
+.edit-icon {
+  position: absolute;
+  right: 15px;
+  top: 5px;
 }
-.picture-holder img{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+.picture-holder img {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  width: 100%;
+  margin-bottom: 25px;
 }
-.info-holder .name, .age, .email{
-    color: #726DA8;
-    font-weight: 500;
+.info-holder .name,
+.age,
+.email {
+  color: #726da8;
+  font-weight: 500;
+  padding-left: 15px;
 }
-.info-holder{
-    text-align: left;
-    padding-left: 10px;
+.info-holder {
+  text-align: left;
+}
+.editDel {
+  margin: 0 10px 15px 10px;
+  width: 120px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  border-left-color: rgb(124, 125, 161);
+  border-top-color: rgb(124, 125, 161);
+  border-bottom-color: #4c2c72;
+  border-right-color: #4c2c72;
+  background: rgb(154, 136, 202);
+  background: linear-gradient(
+    120deg,
+    rgba(154, 136, 202, 1) 0%,
+    rgb(192, 176, 233) 100%
+  );
+  color: rgb(243, 237, 252);
+}
+.editDel:hover{
+    background: rgb(154, 136, 202);
+  background: linear-gradient(
+    190deg,
+    rgba(154, 136, 202, 1) 0%,
+    rgb(121, 100, 177) 100%
+  );
 }

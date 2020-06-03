@@ -1,30 +1,19 @@
 {
   "users": [
     {
-      "id": "5eca742ff4dba4a7aa1d2e46",
+      "id": "5ed8187c9c22849fd6b95bdc",
       "isActive": true,
       "isAdmin": true,
       "picture": "https://picsum.photos/250/300?random=1",
-      "age": 26,
+      "age": "22",
       "name": "Jake Willson",
-      "email": "jwills@netplax.com",
+      "email": "jwills2@netplax.com",
       "phone": "+1 (898) 513-3049",
       "password": "12345"
     },
     {
-      "id": "5eca742f2e5fa98029a2917f",
-      "isActive": false,
-      "isAdmin": false,
-      "picture": "https://picsum.photos/250/300?random=2",
-      "age": "31",
-      "name": "Janell East",
-      "email": "janellEast@netplax.com",
-      "phone": "+1 (905) 486-2672",
-      "password": "pass123"
-    },
-    {
-      "id": "5eca742f1087e79131dbd78b",
-      "isActive": false,
+      "id": "5ed8187c5eb1d6f7b2a0155b",
+      "isActive": true,
       "isAdmin": true,
       "picture": "https://picsum.photos/250/300?random=3",
       "age": 22,
@@ -34,13 +23,13 @@
       "password": "pass123"
     },
     {
-      "id": "5eca742f4cfeed523fc4373c",
+      "id": "5ed8187cb1ea277685d6eee4",
       "isActive": true,
       "isAdmin": false,
       "picture": "https://picsum.photos/250/300?random=4",
       "age": 40,
       "name": "Tasha Hickman",
-      "email": "tashahickman@netplax.com",
+      "email": "tashakhickman@netplax.com",
       "phone": "+1 (859) 532-2141",
       "password": "pass123"
     },
@@ -50,11 +39,43 @@
       "password": "parola123",
       "age": "21",
       "isActive": true,
-      "isAdmin": false,
+      "isAdmin": true,
       "picture": "https://picsum.photos/250/300?random=5",
       "phone": "+1 (898) 513-3049",
       "id": "FANjtsn"
+    },
+    {
+      "name": "Hasan",
+      "age": "33",
+      "phone": "555-555-555",
+      "email": "has@an.gg",
+      "password": "123456",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/250/300?random=8",
+      "id": "D0ehsvS"
     }
   ],
-  "recipies": []
+  "recipies": [
+    {
+      "title": "Liutenica s chesunche i malko lubof",
+      "content": "Pechesh chushkite na teneke i posle gi slagash v studena voda da moe gi obelish kat horata.\nne zabravqi da smelish domatite i malko chesan, che inache liutenicata nqma da q bude.",
+      "authorId": "FANjtsn",
+      "authorName": "Sisa",
+      "difficulty": "9",
+      "category": "domashni gozbi",
+      "date": "2020-06-03T01:30:40.050Z",
+      "id": "P6Jq1vg"
+    },
+    {
+      "title": "Pulneni chushki",
+      "content": "Vzimate golemi chushki i gi pulnite s kvoto vi dusha iska. Narejdate gi v kvadratna tava, shtoto kruglite sa over-rated i pechete na 250 gradusa. Sled kato se sgotvqt, vadite 2-3 goreshti chushki ot tavata i pravo v chiniqta. Zalivat se s kiselo mleche i bon apetit.\n\nZa hubav aromat ne zabravqite da hapnete i chesunche",
+      "authorId": "FANjtsn",
+      "authorName": "Sisa",
+      "difficulty": "2",
+      "category": "qdene za vsqkakuv povod <3",
+      "date": "2020-06-03T14:59:31.942Z",
+      "id": "l34vyt4"
+    }
+  ]
 }

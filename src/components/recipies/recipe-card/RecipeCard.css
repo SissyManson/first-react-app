@@ -1,0 +1,14 @@
+.editDel img {
+  cursor: pointer;
+}
+#edit, #del, #author, .editDel{
+    vertical-align: text-top;
+}
+#del{
+    position: absolute;
+    left: 20px;
+}
+#edit{
+    position: absolute;
+    right: 20px;
+}

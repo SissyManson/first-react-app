@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { deleteReciForAuthor } from './recipies.api';
 
 const apiUrl = "http://localhost:3005";
 
@@ -28,8 +29,8 @@ export async function register(userData) {
         ...userData,
         isActive: true,
         isAdmin: false,
-        picture: "https://picsum.photos/250/300?random=5",
-        phone: "+1 (898) 513-3049"
+        picture: "https://picsum.photos/250/300?random=8",
+        phone: "555-555-555"
     }
 
     return axios.post(`${apiUrl}/users`, userData);
@@ -39,6 +40,10 @@ export async function login(userData) {
     const users = (await getAllUsers()).data;
 
     const loggedUser = users.find(u => u.email === userData.email && u.password.toString() === userData.password);
+
+    if (!loggedUser.isActive) {
+        throw new Error('This user is banned!');
+    }
 
     if (loggedUser) {
         localStorage.setItem('loggedUser', JSON.stringify(loggedUser));
@@ -53,6 +58,16 @@ export function logout() {
 
 }
 
-export function editUser(userData) {
-    return axios.put(`${apiUrl}/users/${userData.id}`, userData);
+export function saveUser(userData) {
+    if (userData.id) {
+        return axios.put(`${apiUrl}/users/${userData.id}`, userData);
+    }
+
+    return register(userData);
+}
+
+export function deleteUser(id) {
+    deleteReciForAuthor(id);
+
+    return axios.delete(`${apiUrl}/users/${id}`);
 }

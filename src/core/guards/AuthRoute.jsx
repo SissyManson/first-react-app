@@ -5,7 +5,13 @@ import { Redirect } from "react-router-dom";
 export function AuthRoute(props) {
   const loggedUser = getLoggedUser();
 
-  if (loggedUser) {
+  //route requires Admin privileges
+  if (props.admin && loggedUser.isAdmin) {
+    return <props.component {...props} />;
+  }
+
+  //free route
+  if (!props.admin && loggedUser) {
     return <props.component {...props} />;
   }
 
