@@ -3,6 +3,13 @@ import { getLoggedUser } from "./users.api";
 
 const apiUrl = 'http://localhost:3005'
 
+export const ReciStatus = {
+    Easy: 'Easy',
+    Medium: 'Medium',
+    Hard: 'Hard',
+    Hell: 'Hell'
+}
+
 export function getAllRecipies() {
     return axios.get(`${apiUrl}/recipies`);
 }
@@ -32,6 +39,8 @@ export function saveRecipe(reciData) {
     reciData.authorId = loggedUser.id;
     reciData.authorName = loggedUser.name;
     reciData.date = new Date();
+    if (!reciData.status)
+        reciData.status = ReciStatus.Easy;
 
     return axios.post(`${apiUrl}/recipies`, reciData);
 }

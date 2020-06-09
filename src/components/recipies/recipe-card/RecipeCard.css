@@ -12,3 +12,6 @@
     position: absolute;
     right: 20px;
 }
+.recipe-wrapper{
+    z-index: 45;
+}

@@ -3,6 +3,7 @@ import { Link, Redirect } from "react-router-dom";
 import { logout, getLoggedUser } from "../../../core/api/users.api";
 
 export function Header() {
+  
   const [isLoggedOut, setLogoutFlag] = useState(false);
   const onLogout = (event) => {
     logout();
@@ -56,21 +57,6 @@ export function Header() {
               </Link>
             </li>
           </ul>
-          <div style={srcbar}>
-            <form className="form-inline my-2 my-lg-0">
-              <input
-                className="form-control mr-sm-2"
-                type="search"
-                placeholder="Search"
-              />
-              <button
-                className="btn btn-outline-success my-2 my-sm-0"
-                type="submit"
-              >
-                Search
-              </button>
-            </form>
-          </div>
         </div>
         <span className="btn btn-outline-info" onClick={onLogout}>
           Logout

@@ -45,37 +45,87 @@
       "id": "FANjtsn"
     },
     {
-      "name": "Hasan",
-      "age": "33",
+      "name": "Ibrahim",
+      "age": "55",
       "phone": "555-555-555",
-      "email": "has@an.gg",
+      "email": "ibrahim@abv.bg",
       "password": "123456",
       "isActive": true,
       "isAdmin": false,
       "picture": "https://picsum.photos/250/300?random=8",
-      "id": "D0ehsvS"
+      "id": "iFwUwjc"
     }
   ],
   "recipies": [
     {
-      "title": "Liutenica s chesunche i malko lubof",
-      "content": "Pechesh chushkite na teneke i posle gi slagash v studena voda da moe gi obelish kat horata.\nne zabravqi da smelish domatite i malko chesan, che inache liutenicata nqma da q bude.",
+      "title": "Лютеница с малко чесънче и любов",
+      "content": "Печеш чушките на тенеке и после ги мяташ в студена вода да мое ги обелиш кат 'ората.\nНе забравяй да смелиш доматите и малко чесън, че иначе лютеницата няма да я бъде.",
       "authorId": "FANjtsn",
       "authorName": "Sisa",
-      "difficulty": "9",
-      "category": "domashni gozbi",
+      "category": "Домашни гоздби",
       "date": "2020-06-03T01:30:40.050Z",
-      "id": "P6Jq1vg"
+      "id": "P6Jq1vg",
+      "status": ""
     },
     {
-      "title": "Pulneni chushki",
-      "content": "Vzimate golemi chushki i gi pulnite s kvoto vi dusha iska. Narejdate gi v kvadratna tava, shtoto kruglite sa over-rated i pechete na 250 gradusa. Sled kato se sgotvqt, vadite 2-3 goreshti chushki ot tavata i pravo v chiniqta. Zalivat se s kiselo mleche i bon apetit.\n\nZa hubav aromat ne zabravqite da hapnete i chesunche",
+      "title": "Пълнени чушки",
+      "content": "Взимате големи чушки и ги пълните с квото ви душа иска. Нареждайте ги в квадратна тава, 'щото кръглите са overrated и печете на 250 градуса. След като се сготвят, вадите 2-3 горещи чушки от тавата и право в чинията. Заливат се с кисело млече и бон апетит.\nЗа хубав аромат не забравяйте чесънчето!",
       "authorId": "FANjtsn",
       "authorName": "Sisa",
-      "difficulty": "2",
-      "category": "qdene za vsqkakuv povod <3",
+      "category": "Чушки",
       "date": "2020-06-03T14:59:31.942Z",
-      "id": "l34vyt4"
+      "id": "l34vyt4",
+      "status": "Medium"
+    },
+    {
+      "title": "Шоколадов сладкиш",
+      "content": "В дълбок съд на водна баня се разтапя шоколадът и маслото. След това се сваля от котлона, добавя се захарта и се бърка до получаване на хомогенна смес.\nОставя се да изстине и се добавят яйцата при непрекъснато бъркане. След това се добавят брашното и ванилията.\nСместа се изсипва в тавичка и се изпича в загрята до 190 градуса фурна.\nКогато се изпече, се обръща, а по желание може да се украси или най-добре да се залее с шоколадов ганаш.",
+      "authorId": "5ed8187c5eb1d6f7b2a0155b",
+      "authorName": "Bernadette Castillo",
+      "category": "Десерти",
+      "date": "2020-06-09T19:04:51.475Z",
+      "id": "XT0obpw",
+      "status": "Hell"
+    },
+    {
+      "title": "Печени белени чушки",
+      "content": "Взимате чушките и ги мятате на тенекето да се изпекат, след като почернеят ги пъхате в съд с вода и ги обелете.",
+      "authorId": "5ed8187c5eb1d6f7b2a0155b",
+      "authorName": "Bernadette Castillo",
+      "category": "Чушки",
+      "date": "2020-06-09T19:07:16.749Z",
+      "id": "MHbXcWn",
+      "status": "Hard"
+    },
+    {
+      "title": "БАКЛАВА С ГОТОВИ КОРИ И ПЛЪНКА ОТ ОРЕХИ",
+      "content": "В намазана с масло тава се редят половината готови кори. Поръсват се с разтопено масло и отгоре се поръсват обилно с плънката от орехови ядки, яйца, захар и брашно. След това се поставят и останалите готови кори и отгоре се поръсват с разтопено масло.\n\nБаклавата се разрязва на квадрати с остър нож и се поставя във фурната на 180 градуса да се пече за около 40 минути.",
+      "authorId": "5ed8187cb1ea277685d6eee4",
+      "authorName": "Tasha Hickman",
+      "category": "Десерти",
+      "date": "2020-06-09T19:10:46.802Z",
+      "id": "OLI6tve",
+      "status": "Easy"
+    },
+    {
+      "title": "СЛАДКИ МАКАРОНИ НА ФУРНА С ЯЙЦА И МЛЯКО",
+      "content": "Яйцата (4 бр) се разбиват и към тях се добавят захарта (200 г), ванилията (1 ч.л.) и прясното мляко (400 мл.). Разбърква се добре и в тази смес се изсипват макароните. Разбъркват се.\n\nТази смес се изсипва в намаслена тавичка и отгоре се нарязва твърдото масло (100 г).\n\nДесертът се слага да се пече на 180 градуса за 20-30 минути, докато се зачервят макароните.",
+      "authorId": "5ed8187cb1ea277685d6eee4",
+      "authorName": "Tasha Hickman",
+      "category": "Десерти",
+      "date": "2020-06-09T19:11:46.573Z",
+      "id": "fisHo2k",
+      "status": "Medium"
+    },
+    {
+      "title": "Фасул с боб и люти чушки",
+      "content": "Това ястие ще ви топли в студените самотни нощи, докато си дебъгвате кода :с",
+      "authorId": "iFwUwjc",
+      "authorName": "Ibrahim",
+      "category": "Традиционна храна",
+      "date": "2020-06-09T21:40:18.832Z",
+      "status": "Hell",
+      "id": "CVL0X9k"
     }
   ]
 }

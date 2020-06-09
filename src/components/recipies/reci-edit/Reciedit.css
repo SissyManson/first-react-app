@@ -26,7 +26,7 @@ label{
     color: #726DA8;
     font-weight: 500;
 }
-#title,#content,#difficulty,#category{
+#title,#content,#difficulty,#category,#status{
     border-radius: 5px;
     border-left-color: #999AC6;
     border-top-color: #999AC6;

@@ -10,7 +10,6 @@ export function ReciEdit(props) {
     content: "",
     authorId: "",
     authorName: "",
-    difficulty: "",
     category: "",
     date: "",
   });
@@ -24,7 +23,7 @@ export function ReciEdit(props) {
         setCurrentRecipe(result.data);
       });
     }
-  },[props.computedMatch.params.id]); //iskame da se izpulni togava, kogato id-to se promeni
+  }, [props.computedMatch.params.id]); //iskame da se izpulni togava, kogato id-to se promeni
 
   const onInputChange = (event) => {
     // persistvame(poluchavame dostup po asinhronen nachin) gi zashtoto sa synthetic
@@ -53,6 +52,7 @@ export function ReciEdit(props) {
           <div className="form-group">
             <label htmlFor="title">Title:</label>
             <input
+              required
               className="form-control"
               type="text"
               id="title"
@@ -63,22 +63,9 @@ export function ReciEdit(props) {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="difficulty">Difficulty:</label>
-            <input
-              className="form-control"
-              type="number"
-              min="1"
-              max="10"
-              id="difficulty"
-              name="difficulty"
-              onChange={onInputChange}
-              value={currentRecipe.difficulty}
-              placeholder="Diffulty must be between 1 and 10"
-            />
-          </div>
-          <div className="form-group">
             <label htmlFor="category">Category:</label>
             <input
+              required
               className="form-control"
               type="text"
               id="category"
@@ -89,12 +76,28 @@ export function ReciEdit(props) {
             />
           </div>
           <div className="form-group">
+            <label htmlFor="status">Difficulty:</label>
+            <select
+              className="form-control"
+              name="status"
+              id="status"
+              value={currentRecipe.status}
+              onChange={onInputChange}
+            >
+              <option value="Easy">Easy</option>
+              <option value="Medium">Medium</option>
+              <option value="Hard">Hard</option>
+              <option value="Hell">Hell</option>
+            </select>
+          </div>
+          <div className="form-group">
             <label htmlFor="content">Content:</label>
             <textarea
+              required
               className="form-control"
               id="content"
               name="content"
-              rows="5"
+              rows="10"
               onChange={onInputChange}
               value={currentRecipe.content}
               placeholder="e.g. You need chocolate and cake to make it right"

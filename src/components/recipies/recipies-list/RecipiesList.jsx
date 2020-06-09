@@ -20,7 +20,7 @@ export function RecipiesList() {
   };
 
   return (
-    <div className="recip-list-wrapper">
+    <div className="recip-list-wrapper d-flex  flex-wrap justify-content-between">
       {recipies.map((recipe) => (
         <RecipeCard recipe={recipe} key={recipe.id} onDeleteClick={onDelete} />
       ))}

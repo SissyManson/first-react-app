@@ -1,6 +1,6 @@
 .main-content{
-    padding-bottom: 20px;
-    min-height:  calc(100vh - 100px);
+    padding: 10px 0 50px 0;
+    min-height:  calc(100vh - 90px);
     background-color: rgb(214, 202, 247);
 }
 #birb{
