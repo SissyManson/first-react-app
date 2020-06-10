@@ -5,6 +5,7 @@ import { getLoggedUser } from "../../../core/api/users.api";
 
 export function UserCard({ user, onDelete }) {
   const loggedUser = getLoggedUser();
+  
   return (
     <div className="user-card">
       <div className="picture-holder">
